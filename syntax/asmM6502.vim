@@ -55,6 +55,7 @@ if !exists("did_asm65_syntax_inits")
   hi link asmComment	Comment
   hi link asmSettings	Statement
  hi link asm65Op Statement
+ hi link asm65C02Op Statement
  hi link asmSallyUndoc Special
  hi link asm65Reg Identifier
  hi link asm65Branch Conditional
