@@ -22,6 +22,8 @@ syn keyword asm65Branch bcc bcs beq bmi bne bpl bvc bvs jmp jsr
 " at "http://www.xmission.com/~trevin/atari/atari.shtml"
 syn keyword asmSallyUndoc anc arr asr asx ax7 axe brk dcp jam las lax php rla rra sax slo sre sx7 sy7 xea xs7
 
+syn keyword asm65C02Op bra phx phy plx ply stz trb tsb bbr bbs stp wai
+
 syn match asmLabel		"^[a-z_][a-z0-9_]*"
 syn match asmComment		";.*"hs=s+1 contains=asmTodo
 syn keyword asmTodo	contained todo fixme xxx warning danger note notice bug
